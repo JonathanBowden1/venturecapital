@@ -43,7 +43,13 @@
   width: 7%;
   height: 7%;
   text-align: left;
-  margin:50px;
+  margin:5%;
+  float: right;
+}
+
+.logo-div{
+  margin-left: 85%;
+  z-index: 10;
 }
 
 .logo-text{
@@ -53,8 +59,8 @@
   height: 10%;
   text-align: left;
   font-weight:bold;
-  margin-top: 70px;
-  margin-left: 150px;
+  margin-top: 4%;
+  margin-left: 5%;
   color: white;
 
 }
@@ -62,6 +68,7 @@
 .header-text{
   font-family: 'SansForgetica-Regular';
 }
+
 .back-text{
   text-align: center;
   position: fixed;
@@ -103,9 +110,9 @@
   font-size: 90px;
 }
 
-.header-para{
+/* .header-para{
   margin: 0 auto;
-}
+} */
 
 
 /* sections */
@@ -210,9 +217,12 @@ p{
 
 
 .header-rest{
-
-  margin-top: 10%;
+  position: fixed;
+  padding-top: 11%;
+  width: 100%;
   color: white;
+  /* text-align: center; */
+  margin-left: auto;
   text-shadow: 2px 2px 4px darkgrey;
 }
 
