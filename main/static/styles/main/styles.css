@@ -83,6 +83,7 @@
 
 .out-fur{
   background-color: black;
+  /* border: 1px solid white; */
 }
 
 .next{
@@ -94,6 +95,7 @@
 
 .out-next{
   background-color: white;
+  /* border: 2px solid black; */
 }
 
 .different{
@@ -107,6 +109,7 @@
 
 .out-dif{
   background-color: grey;
+  border: 1px solid darkgrey;
 }
 
 .contact{
@@ -123,10 +126,10 @@
 
 .contact-image{
   height:50%;
-  width:40%;
+  width:55%;
   border-radius: 25px;
   margin-bottom: 3%;
-  margin-top:1%;
+  /* margin-top:1%; */
 
 
 }
@@ -151,6 +154,8 @@
 .head{
   margin-bottom: 5%;
   text-shadow: 2px 2px 4px darkgrey;
+  /* border: 1px solid white; */
+  padding: 2px;
 }
 
 
@@ -165,5 +170,7 @@
 
 #next-head{
   text-shadow: 2px 2px 4px grey;
+  /* border: 1px solid black; */
+  padding: 2px;
 
 }
