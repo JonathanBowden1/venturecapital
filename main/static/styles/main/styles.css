@@ -15,16 +15,36 @@
   text-align: center;
   position: fixed;
   z-index: 8;
-  margin-left: 20%;
+  width: 70%;
+  margin: 0 auto;
+  margin-left: 10%;
 }
+@media only screen and (max-width: 600px) {
+  .logo-text-new{
+    margin-top: 10%;
+
+  }
+}
+
+
 
 .huge{
   color: white;
-  font-size: 100%;
+  font-size: 70%;
   text-align: center;
   margin: 0 auto;
+  display: inline-block;
+  /* font-family: 'SansForgetica-Regular'; */
 
 }
+@media only screen and (max-width: 900px) {
+  .huge{
+    margin-top: 10%;
+    font-size: 60%;
+    }
+}
+
+
 .small-opp{
   font-family: 'SansForgetica-Regular';
   color:#1185c5;
@@ -134,8 +154,8 @@
     position: absolute;
     z-index: 10; /* Important! Must be higher than .backdrop's z-index. */
     width: 100%;
-    /* border-top: 1px solid #E8E8E8; */
-    top: 40rem; /* How much space to give the backdrop section */
+
+    top: 55rem; /* How much space to give the backdrop section */
 
 }
 
@@ -197,11 +217,27 @@
   margin-bottom: 3%;
 }
 
+@media only screen and (max-width: 900px) {
+  .contact-image{
+    width: 100%;
+    height: 40%;
+    margin: 0 auto;
+
+  }
+}
+
+
 .contact-image:hover{
   box-shadow: 10px 10px 10px #1185c5;;
 }
 .contact-head{
   margin-bottom: 0;
+}
+
+.contact-p{
+  margin-top: 10%;
+  margin-bottom: 15%;
+  font-weight: bold;
 }
 /* end of sections */
 
@@ -254,6 +290,13 @@ p{
   width: 3%;
   /* text-shadow: 2px 2px 4px #1185c5; */
 }
+@media only screen and (max-width: 900px) {
+  .link{
+   height: 8%;
+   width: 20%;
+ }
+}
+
 
 .link:hover{
   box-shadow: 6px 6px 6px #1185c5;
