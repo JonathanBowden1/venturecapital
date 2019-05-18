@@ -1,4 +1,10 @@
 
+@font-face {
+  font-family: 'SansForgetica';
+  src: url([[font:theme|SansForgetica-Regular.otf ]]);
+  font-weight: normal;
+  font-style: normal;
+}
 
 .backdrop {
     position: fixed;
@@ -7,8 +13,10 @@
     height: 100%;
     text-align: center;
     color: white;
+    background-color: black;
     /* background:  url("../images/backdrop.jpg")no-repeat top/cover; */
 }
+
 
 .back-text{
   text-align: center;
@@ -20,11 +28,12 @@
 }
 
 
+/* sections */
 .content {
     position: absolute;
     z-index: 10; /* Important! Must be higher than .backdrop's z-index. */
     width: 100%;
-    border-top: 1px solid #E8E8E8;
+    /* border-top: 1px solid #E8E8E8; */
     /* background-color: #FFF; */
     top: 33rem; /* How much space to give the backdrop section */
 
@@ -38,11 +47,19 @@
   margin-bottom: 0;
 }
 
+.out-fur{
+  background-color: black;
+}
+
 .next{
   background-color: white;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.out-next{
+  background-color: white;
 }
 
 .different{
@@ -54,12 +71,41 @@
 
 }
 
+.out-dif{
+  background-color: grey;
+}
+
 .contact{
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
+  background-color: white;
 }
+
+.out-contact{
+  background-color: white;
+}
+
+.contact-image{
+  height:60%;
+  width:40%;
+  border-radius: 25px;
+
+}
+/* end of sections */
+
+.block{
+  padding-top: 7%;
+  padding-bottom: 7%;
+  width: 80%;
+  margin: 0 auto;
+}
+
 
 .p-bot{
   margin-bottom: 0;
+}
+
+.head{
+  margin-bottom: 5%;
 }
