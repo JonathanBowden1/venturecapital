@@ -19,11 +19,6 @@
   margin-left: 23%;
 }
 
-/* .image-bk{
-  position: fixed;
-  z-index: 3;
-
-} */
 
 .content {
     position: absolute;
@@ -39,16 +34,32 @@
   background-color: black;
   color: white;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .next{
   background-color: white;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .different{
   text-align: center;
   background-color: grey;
   color: white;
+  margin-top: 0;
+  margin-bottom: 0;
 
+}
+
+.contact{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.p-bot{
+  margin-bottom: 0;
 }
