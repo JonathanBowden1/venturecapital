@@ -157,6 +157,10 @@
   margin-bottom: 3%;
 }
 
+.contact-image:hover{
+
+  box-shadow: 6px 6px 6px #1185c5;;
+}
 .contact-head{
   margin-bottom: 0;
 }
@@ -199,4 +203,12 @@ p{
 
   font-weight: bold;
 
+}
+
+.hidden{
+ color:black;
+}
+
+.hidden:hover{
+  color:white;
 }
