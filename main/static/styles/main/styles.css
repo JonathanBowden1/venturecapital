@@ -26,7 +26,7 @@
   /* margin-left: 20%; */
   display: block;
   font-size: 80px;
-  margin-top: 1%;
+  margin-top: 5%;
   color: #1185c5;
   text-shadow: 2px 2px 4px #fff;
   /* margin: 0 auto; */
@@ -155,14 +155,15 @@
   margin-bottom: 5%;
   text-shadow: 2px 2px 4px darkgrey;
   /* border: 1px solid white; */
-  padding: 2px;
+  /* padding: 2px; */
+  font-weight: bold;
 }
 
 
 .header-rest{
   /* display: block; */
   /* margin-left: 10%; */
-  margin-top: 7%;
+  margin-top: 10%;
   color: white;
   text-shadow: 2px 2px 4px darkgrey;
 }
@@ -171,6 +172,7 @@
 #next-head{
   text-shadow: 2px 2px 4px grey;
   /* border: 1px solid black; */
-  padding: 2px;
+  /* padding: 2px; */
+  font-weight: bold;
 
 }
