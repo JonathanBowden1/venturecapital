@@ -1,10 +1,10 @@
 
-/* @font-face {
+@font-face {
   font-family: 'SansForgetica';
   src: url([[font:theme|SansForgetica-Regular.otf ]]);
   font-weight: normal;
   font-style: normal;
-} */
+}
 
 .backdrop {
     position: fixed;
@@ -159,7 +159,7 @@
 
 .contact-image:hover{
 
-  box-shadow: 6px 6px 6px #1185c5;;
+  box-shadow: 10px 10px 10px #1185c5;;
 }
 .contact-head{
   margin-bottom: 0;
@@ -180,6 +180,7 @@
 
 p{
   font-size: 17px;
+  font-family: "Bookman", Times, serif;
 }
 
 .head{
@@ -205,10 +206,13 @@ p{
 
 }
 
-.hidden{
- color:black;
+.link{
+  text-align: center;
+  height:3%;
+  width: 3%;
+  /* text-shadow: 2px 2px 4px #1185c5; */
 }
 
-.hidden:hover{
-  color:white;
+.link:hover{
+  box-shadow: 6px 6px 6px #1185c5;
 }
