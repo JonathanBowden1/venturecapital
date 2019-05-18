@@ -1,9 +1,29 @@
 
 @font-face {
   font-family: 'SansForgetica';
-  src: url([[font:theme|SansForgetica-Regular.otf ]]);
+  /* src: url([[font:theme|SansForgetica-Regular.otf ]]); */
+  src: url("../static/fonts/SansForgetica-Regular.otf");
   font-weight: normal;
   font-style: normal;
+}
+
+.logo-text{
+  font-size: 30px;
+  margin-left: 50%;
+  /* width: 20%; */
+  /* margin-left: 60%; */
+  /* font-family: 'SansForgetica-Regular'; */
+}
+.small-opp{
+  font-family: 'SansForgetica-Regular';
+  color:#1185c5;
+  font-size: 90px;
+}
+
+.small{
+  display: inline-block;
+
+
 }
 
 .backdrop {
@@ -20,8 +40,8 @@
 .logo-img{
   position: fixed;
   z-index: 8;
-  width: 10%;
-  height: 10%;
+  width: 7%;
+  height: 7%;
   text-align: left;
   margin:50px;
 }
@@ -34,16 +54,14 @@
   text-align: left;
   font-weight:bold;
   margin-top: 70px;
-  margin-left: 200px;
+  margin-left: 150px;
   color: white;
 
 }
 
-.small{
-  display: inline-block;
+.header-text{
+  font-family: 'SansForgetica-Regular';
 }
-
-
 .back-text{
   text-align: center;
   position: fixed;
@@ -54,7 +72,9 @@
   font-size: 80px;
   margin-top: 5%;
   color: #1185c5;
-  text-shadow: 2px 2px 4px #fff;
+  text-shadow: 4px 4px 5px #fff;
+  /* font-family: 'SansForgetica-Regular'; */
+
   /* margin: 0 auto; */
 }
 
@@ -64,7 +84,6 @@
   position: fixed;
   z-index: 8;
   width: 60%;
-
   display: block;
   margin-top: 7%;
   margin-left: 23%;
@@ -158,7 +177,6 @@
 }
 
 .contact-image:hover{
-
   box-shadow: 10px 10px 10px #1185c5;;
 }
 .contact-head{
@@ -215,4 +233,8 @@ p{
 
 .link:hover{
   box-shadow: 6px 6px 6px #1185c5;
+}
+
+.contact-p{
+  font-size: 23px;
 }
