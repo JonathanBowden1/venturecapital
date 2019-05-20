@@ -37,7 +37,7 @@ SECRET_KEY = 'lye&=y%3cj#)imfwra#)1zt@d_sn9ua!-3_jr2-)pr34_g08kk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['oppor2nityjb.herokuapp.com', 'oppor2nity101.herokuapp.com', 'localhost:8000']
+ALLOWED_HOSTS = ['oppor2nityjb.herokuapp.com', 'oppor2nity101.herokuapp.com', 'localhost']
 
 
 # Application definition

@@ -7,6 +7,12 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family : 'AkrobatExtraBold';
+  src : url("../static/fonts/Akrobat-ExtraBold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 .logo-text-new{
@@ -36,13 +42,20 @@
   margin: 0 auto;
   display: inline-block;
   /* font-family: 'SansForgetica-Regular'; */
-  font-family: 'IsidoraSans-Regular', sans-serif;
+  font-family: 'AkrobatExtraBold','IsidoraSans-Regular', sans-serif;
+  font-size: 5.313rem;
+   letter-spacing: 7.5px;
+   line-height: 95px;
+
 
 }
 @media only screen and (max-width: 900px) {
   .huge{
     margin-top: 10%;
-    font-size: 60%;
+    font-size: 50%;
+    line-height: 40px;
+    letter-spacing: 5px;
+
     }
 }
 
